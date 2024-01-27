@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
+
+
+    
+}
+
+body{
+    background: white;
+    height: 100vh;
+    width: 100%;
+
+    /* overflow: hidden; */
+
+    
+
+}
+.all{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100vh;
+    width: 100%;
+
+    background-color: azure;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    height: 100vh;
+    width: 50%;
+
+    background-color: beige;
+
+    position: relative;
+
+    
+
+    
+}
+.logo{
+    height: 200px;
+    width: 300px;
+
+    
+    position: relative;
+    top: -58%;
+    right: -20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    color: white;
+
+}
+.filter{
+    height: 100vh;
+    width: 100%;
+
+    position: absolute;
+    background-image: linear-gradient(rgba(161, 161, 224, 0.1),rgba(0, 255, 255, 0.652))
+    
+}
+.content{
+    height: 100vh;
+    width: 70%;
+
+    margin-left: 2%;
+    
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: column;
+}
+.write{
+    height: 30vh;
+    width: 100%;
+
+    /* background-color: aqua; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-direction: column;
+}
+h1{
+    font-size: 4vw;
+}
+p{
+    font-style: normal;
+    color: rgb(111,124,178);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.jcard{
+    /* background-color: beige; */
+    height: fit-content;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+span{
+    font-size: 12px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-family: inter;
+
+    color: gray;
+}
+
+
+.cards-sub{
+    /* padding: 10%; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+h2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+i{
+    /* font-size: 3rem; */
+}
